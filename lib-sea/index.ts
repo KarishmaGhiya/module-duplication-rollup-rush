@@ -1,3 +1,2 @@
-export default function millisecondsUntil(date) {
-	return date - Date.now();
-}
+/// <reference lib="es2015" />
+/// <reference lib="esnext.asynciterable" />
