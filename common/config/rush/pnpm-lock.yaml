@@ -1,7 +1,8 @@
 dependencies:
   '@rush-temp/lib-aaa': 'file:projects/lib-aaa.tgz'
   '@rush-temp/lib-bee': 'file:projects/lib-bee.tgz'
-  buffer: 5.2.1
+  '@rush-temp/lib-sea': 'file:projects/lib-sea.tgz'
+  '@types/node': 8.10.49
   typescript: 3.5.1
 lockfileVersion: 5
 packages:
@@ -43,7 +44,7 @@ packages:
     dev: false
     name: '@rush-temp/lib-aaa'
     resolution:
-      integrity: sha512-bMSPA+2gFkeZfFzfyKmLoW7kcxp3Q0GL/BAXZ5vlpj8zl/FjqvK9PlEXD8oqc1ZHcLeUObi1xoFML7l8as/Jiw==
+      integrity: sha512-IPOQ/iQ1V6XvSe3+CsUv7O8+u9lm9DSsKhjg/ltSRpJKGofs6PtjR5s7a0aZx4zvyotnc5iy5DonOOmpfXAi8w==
       tarball: 'file:projects/lib-aaa.tgz'
     version: 0.0.0
   'file:projects/lib-bee.tgz':
@@ -54,12 +55,23 @@ packages:
     dev: false
     name: '@rush-temp/lib-bee'
     resolution:
-      integrity: sha512-MDjyX2QHwm0ygUMNlhcEs23hN1W7kqM1BbvN1jTBDnW/0UTBkehlt5IaGaa8DrmLXLXuVEhiAR3vPCbEXSrzoQ==
+      integrity: sha512-rNj7bB4CUgPpQJbMpfOAIh43WnpUJEgrkWKPN67d3doV0jOI0yd9xHl7aP9rAychfFyIA/UZ3er5S7GT1CTBgA==
       tarball: 'file:projects/lib-bee.tgz'
+    version: 0.0.0
+  'file:projects/lib-sea.tgz':
+    dependencies:
+      '@types/node': 8.10.49
+      typescript: 3.5.1
+    dev: false
+    name: '@rush-temp/lib-sea'
+    resolution:
+      integrity: sha512-VJxc2ILqOCpMW11kO9p6DT2jsrJpKMis1wRzcZdzZrqDJcMtq5SaPVpyuqE6Jl6UrYjrGqV6G531hA1t6myg+Q==
+      tarball: 'file:projects/lib-sea.tgz'
     version: 0.0.0
 registry: ''
 specifiers:
   '@rush-temp/lib-aaa': 'file:./projects/lib-aaa.tgz'
   '@rush-temp/lib-bee': 'file:./projects/lib-bee.tgz'
-  buffer: 5.2.1
+  '@rush-temp/lib-sea': 'file:./projects/lib-sea.tgz'
+  '@types/node': ^8.0.0
   typescript: 3.5.1
