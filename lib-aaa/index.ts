@@ -1,3 +1,5 @@
+/// <reference lib="es2015" />
+/// <reference lib="esnext.asynciterable" />
 var Buffer = require('buffer/').Buffer 
 const buf = Buffer.from('hello world', 'ascii');
 console.log("lib-aaa printing hex for buffer - 'hello world', 'ascii'");
