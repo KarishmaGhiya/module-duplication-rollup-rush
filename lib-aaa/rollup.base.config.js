@@ -8,7 +8,7 @@ import viz from "rollup-plugin-visualizer";
 
 const pkg = require("./package.json");
 const depNames = Object.keys(pkg.dependencies);
-const input = "dist-esm/src/index.js";
+const input = "dist-esm/index.js";
 const production = process.env.NODE_ENV === "production";
 
 export function nodeConfig(test = false) {
@@ -55,7 +55,7 @@ export function browserConfig(test = false, production = false) {
     input: input,
     external: ["@azure/ms-rest-js"],
     output: {
-      file: "browser/azure-template.js",
+      file: "browser/lib-aaa.js",
       format: "umd",
       name: "ExampleClient",
       sourcemap: true,

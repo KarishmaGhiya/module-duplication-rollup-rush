@@ -2,7 +2,13 @@
     "name": "lib-aaa",
     "version": "1.0.0",
     "description": "",
-    "main": "index.ts",
+    "main": "dist/index.js",
+    "module": "dist-esm/index.js",
+    "browser": {
+      "stream": "./node_modules/stream-browserify/index.js",
+      "./dist/index.js": "./browser/index.js",
+      "./dist-esm/print.js": "./dist-esm/print.browser.js"
+    },
     "scripts": {
       "build": "tsc -p . && rollup -c 2>&1",
       "build:browser": "tsc -p . && cross-env ONLY_BROWSER=true rollup -c 2>&1",
