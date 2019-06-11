@@ -89,7 +89,7 @@ export function browserConfig(test = false, production = false) {
     baseConfig.plugins.unshift(multiEntry({ exports: false }));
     baseConfig.output.file = "test-browser/index.js";
   } else if (production) {
-    baseConfig.output.file = "browser/azure-template.min.js";
+    baseConfig.output.file = "browser/lib-aaa.min.js";
     baseConfig.plugins.push(uglify());
   }
 
