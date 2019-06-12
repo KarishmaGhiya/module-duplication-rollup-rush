@@ -10,6 +10,6 @@ The `lib-aaa`  depends on `lib-sea` and `lib-bee` v 1.0.0
 The `lib-bee` depends on `lib-sea`
 
 ### What is happening?
-- Two copies of `buffer` package created under node-modules for lib-aaa :
+- Two copies of `lib-sea` package created under node-modules for lib-aaa :
 1. under `lib-aaa\node_modules\lib-sea`
 2. under `lib-aaa\node_modules\lib-bee\node_modules\lib-sea`
