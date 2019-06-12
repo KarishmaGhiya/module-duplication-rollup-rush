@@ -10,6 +10,6 @@ console.log(bufferConversionResult.toString('base64'));
 import { addTwoIntegers } from "lib-sea/index";
 
 export function SquareofSum(num1: number, num2: number):number{
-    const sum = addTwoIntegers(num1,num2);
-    return  sum*sum ;
+    let sum = addTwoIntegers(num1,num2);
+    return  sum * sum ;
 }

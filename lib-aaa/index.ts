@@ -11,11 +11,11 @@ import { addTwoIntegers } from "lib-sea/index";
 import { SquareofSum } from "lib-bee/index";
 
 export function MySum(num1: number, num2: number):number{
-    const add = addTwoIntegers(num1,num2);
-    return  add;
+    let sum = addTwoIntegers(num1,num2);
+    return sum;
 }
 
-export function MyProduct(num1: number, num2: number):number{
-    const product = SquareofSum(num1,num2);
-    return  product;
+export function MyProductOfSum(num1: number, num2: number):number{
+    let product = SquareofSum(num1,num2);
+    return product;
 }
