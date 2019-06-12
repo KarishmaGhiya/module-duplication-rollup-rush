@@ -351,6 +351,10 @@
       {
         "packageName": "lib-bee",
         "projectFolder": "lib-bee"
+      },
+      {
+        "packageName": "lib-sea",
+        "projectFolder": "lib-sea"
       }
     ]
   }
